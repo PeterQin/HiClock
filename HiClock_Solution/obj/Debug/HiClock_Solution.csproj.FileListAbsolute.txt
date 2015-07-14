@@ -1,0 +1,13 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\bin\Debug\HiClock_Solution.exe.config
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\bin\Debug\HiClock_Solution.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\bin\Debug\HiClock_Solution.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\MainWindow.baml
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\MainWindow.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\App.g.cs
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution_MarkupCompile.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.g.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.exe
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock_Solution\obj\Debug\HiClock_Solution.pdb

@@ -1,0 +1,356 @@
+﻿<UserControl x:Class="HiClock.Presentation.HiClockMainView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:com="http://common.hiclock.com"
+             xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             x:ClassModifier="internal"
+             d:DesignHeight="510" d:DesignWidth="730" Background="#FF676767">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Common.Presentation;Component/Resources/CommonResources.xaml"/>
+                <ResourceDictionary Source="/Common.Presentation;Component/Resources/WPF Themes/ExpressionDark.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <Style x:Key="TextBoxTimeStyle" TargetType="{x:Type TextBox}">
+                <Setter Property="Background" Value="#FF1D1A1A"/>
+                <Setter Property="Foreground" Value="#FF14E614"/>
+                <Setter Property="BorderBrush" Value="#FF01F9E3"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="CaretBrush" Value="#FF14E614"/>
+                <Setter Property="MinWidth" Value="45"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="FontSize" Value="15"/>
+                <Setter Property="Height" Value="25"/>
+                <Setter Property="Padding" Value="6,0,6,0"/>
+                <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+            </Style>
+            <Style TargetType="Button" x:Key="NobodyButtonStyle">
+                <Setter Property="BorderBrush" Value="Transparent"/>
+                <Setter Property="BorderThickness" Value="0"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Foreground" Value="#FF9966CC"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="Width" Value="23"/>
+                <Setter Property="Height" Value="23"/>
+            </Style>
+            <Style TargetType="{x:Type Grid}" x:Key="GridSplitStyle">
+                <Setter Property="Background" Value="#FF9966CC"/>
+                <Setter Property="Height" Value="2"/>
+            </Style>
+            <Style TargetType="{x:Type Grid}" x:Key="TabContentGridStyle">
+                <Setter Property="Background" Value="#FF595959"/>
+            </Style>
+            <Style TargetType="TextBlock" x:Key="GridSplitTextStyle">
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="Foreground" Value="WhiteSmoke"/>
+            </Style>
+
+            <Style TargetType="{x:Type Image}" x:Key="TabHeaderImageStyle">
+                <Setter Property="Width" Value="36"/>
+            </Style>
+
+            <Style TargetType="{x:Type StackPanel}" x:Key="TabHeaderStackPanelStyle">
+                <Setter Property="Width" Value="52"/>
+            </Style>
+
+            <Style TargetType="{x:Type TextBlock}" x:Key="TabItemTextStyle">
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="HorizontalAlignment" Value="Center"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+            </Style>
+            <Style TargetType="{x:Type TabItem}">
+                <Setter Property="Background" Value="Transparent" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TabItem}">
+
+                            <Border x:Name="PART_Border" Background="{TemplateBinding Background}" BorderThickness="1" Margin="2">
+                                <Border x:Name="PART_Border2" Background="{TemplateBinding Background}" BorderThickness="1">
+                                    <Border x:Name="PART_Border3" Background="{TemplateBinding Background}" BorderThickness="1">
+                                        <ContentPresenter ContentSource="Header" Margin="2"/>
+                                    </Border>
+                                </Border>
+                            </Border>
+
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter TargetName="PART_Border" Property="BorderBrush" Value="#FF797979" />
+                                    <Setter TargetName="PART_Border" Property="Background" Value="#FF515151" />
+                                    <Setter TargetName="PART_Border2" Property="BorderBrush" Value="#FF404040"/>
+                                    <Setter TargetName="PART_Border3" Property="BorderBrush" Value="#FF464646"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="PART_Border" Property="BorderBrush" Value="#FF797979" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style TargetType="{x:Type TabControl}">
+                <!--<Setter Property="TabStripPlacement" Value="Left" />-->
+                <Setter Property="Margin" Value="3" />
+                <Setter Property="Padding" Value="3" />
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type TabControl}">
+                            <Grid ClipToBounds="True" SnapsToDevicePixels="True" KeyboardNavigation.TabNavigation="Local">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Name="ColumnDefinition0" />
+                                    <ColumnDefinition Width="0" Name="ColumnDefinition1" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" Name="RowDefinition0" />
+                                    <RowDefinition Height="*" Name="RowDefinition1" />
+                                </Grid.RowDefinitions>
+
+                                <Border x:Name="HeaderBorder" 
+                                        BorderBrush="#FF676767" 
+                                        BorderThickness="1" 
+                                        CornerRadius="0" 
+                                        Background="#FF676767" >
+                                    <TabPanel IsItemsHost="True"
+                                                            Name="HeaderPanel" 
+                                                            Panel.ZIndex="1" 
+                                                            KeyboardNavigation.TabIndex="1"
+                                                            Grid.Column="0" 
+                                                            Grid.Row="0" 
+                                                            Margin="3"/>
+                                </Border>
+
+                                <Grid Name="ContentPanel" 
+                                      KeyboardNavigation.TabIndex="2" 
+                                      KeyboardNavigation.TabNavigation="Local" 
+                                      KeyboardNavigation.DirectionalNavigation="Contained" 
+                                      Grid.Column="0" 
+                                      Grid.Row="1">
+                                    <Border Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}" 
+                                            BorderThickness="0"
+                                            CornerRadius="0" Margin="{TemplateBinding Margin}">
+                                        <ContentPresenter Content="{TemplateBinding SelectedContent}" 
+                                                          ContentTemplate="{TemplateBinding SelectedContentTemplate}" 
+                                                          ContentStringFormat="{TemplateBinding SelectedContentStringFormat}" 
+                                                          ContentSource="SelectedContent" 
+                                                          Name="PART_SelectedContentHost"
+                                                          SnapsToDevicePixels="{TemplateBinding UIElement.SnapsToDevicePixels}" 
+                                        />
+                                    </Border>
+                                </Grid>
+                            </Grid>
+
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="TabControl.TabStripPlacement" Value="Bottom">
+                                    <Setter TargetName="HeaderPanel" Property="Grid.Row" Value="1" />
+                                    <Setter TargetName="ContentPanel" Property="Grid.Row" Value="0" />
+                                    <Setter TargetName="RowDefinition0" Property="RowDefinition.Height" Value="*" />
+                                    <Setter TargetName="RowDefinition1" Property="RowDefinition.Height" Value="Auto" />
+                                    <Setter TargetName="HeaderBorder" Property="FrameworkElement.Margin" Value="0,5,0,0" />
+                                </Trigger>
+                                <Trigger Property="TabControl.TabStripPlacement" Value="Left">
+                                    <Setter TargetName="HeaderPanel" Property="Grid.Row" Value="0" />
+                                    <Setter TargetName="ContentPanel" Property="Grid.Row" Value="0" />
+                                    <Setter TargetName="HeaderPanel" Property="Grid.Column" Value="0" />
+                                    <Setter TargetName="ContentPanel" Property="Grid.Column" Value="1" />
+                                    <Setter TargetName="ColumnDefinition0" Property="ColumnDefinition.Width" Value="Auto" />
+                                    <Setter TargetName="ColumnDefinition1" Property="ColumnDefinition.Width" Value="*" />
+                                    <Setter TargetName="RowDefinition0" Property="RowDefinition.Height" Value="*" />
+                                    <Setter TargetName="RowDefinition1" Property="RowDefinition.Height" Value="0" />
+                                    <Setter TargetName="HeaderBorder" Property="FrameworkElement.Margin" Value="0,0,5,0" />
+                                </Trigger>
+                                <Trigger Property="TabControl.TabStripPlacement" Value="Right">
+                                    <Setter TargetName="HeaderPanel" Property="Grid.Row" Value="0" />
+                                    <Setter TargetName="ContentPanel" Property="Grid.Row" Value="0" />
+                                    <Setter TargetName="HeaderPanel" Property="Grid.Column" Value="1" />
+                                    <Setter TargetName="ContentPanel" Property="Grid.Column" Value="0" />
+                                    <Setter TargetName="ColumnDefinition0" Property="ColumnDefinition.Width" Value="*" />
+                                    <Setter TargetName="ColumnDefinition1" Property="ColumnDefinition.Width" Value="Auto" />
+                                    <Setter TargetName="RowDefinition0" Property="RowDefinition.Height" Value="*" />
+                                    <Setter TargetName="RowDefinition1" Property="RowDefinition.Height" Value="0" />
+                                    <Setter TargetName="HeaderBorder" Property="FrameworkElement.Margin" Value="5,0,0,0" />
+                                </Trigger>
+                                <Trigger Property="UIElement.IsEnabled" Value="False">
+                                    <Setter Property="TextElement.Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}" />
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            
+            <Style TargetType="TextBlock">
+                <Setter Property="VerticalAlignment" Value="Center"/> 
+                <Setter Property="Foreground" Value="WhiteSmoke"/>
+            </Style>
+            
+            
+            <DataTemplate x:Key="FrequencyDataTemplate">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Text="{Binding Frequency, Mode=OneWay}" Grid.Column="0"/>
+                    <TextBlock x:Name="txtTimeIn" Grid.Column="1"/>
+                </Grid>
+                <DataTemplate.Triggers>
+                    <DataTrigger Binding="{Binding TimeIn}" Value="InSecond">
+                        <DataTrigger.Setters>
+                            <Setter TargetName="txtTimeIn" Property="Text" Value=" Second"/>
+                        </DataTrigger.Setters>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding TimeIn}" Value="InMinute">
+                        <DataTrigger.Setters>
+                            <Setter TargetName="txtTimeIn" Property="Text" Value=" minute"/>
+                        </DataTrigger.Setters>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding TimeIn}" Value="InHour">
+                        <DataTrigger.Setters>
+                            <Setter TargetName="txtTimeIn" Property="Text" Value=" hour"/>
+                        </DataTrigger.Setters>
+                    </DataTrigger>
+                </DataTemplate.Triggers>
+            </DataTemplate>
+            
+            
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TabControl Grid.Row="0" Grid.RowSpan="2" Grid.Column="0" Grid.ColumnSpan="2" Padding="0" SelectedIndex="{Binding CurrentSelectedTabIndex, Mode=TwoWay}" BorderBrush="#FFD2FFF1">            
+            <TabItem >
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource TabHeaderStackPanelStyle}">
+                        <Image Source="{StaticResource ThemePng}" Style="{StaticResource TabHeaderImageStyle}"/>
+                        <TextBlock Text="Settings"  Style="{StaticResource TabItemTextStyle}"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid Style="{StaticResource TabContentGridStyle}" >
+                    <Grid Margin="12">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                            <RowDefinition Height="1*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0">
+                                <TextBlock Text="Alarm Setting" Style="{StaticResource GridSplitTextStyle}" VerticalAlignment="Bottom"/>
+                            </StackPanel>
+                            <Grid Grid.Row="1" Margin="21,6,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBlock Text="Alarm Frequency: " Grid.Row="0" Grid.Column="0" />
+                                <ComboBox Grid.Row="0" Grid.Column="1" MinWidth="100" ItemTemplate="{StaticResource FrequencyDataTemplate}"
+                                        ItemsSource="{Binding Root.AlarmFrequencyList, Mode=OneWay}"
+                                        SelectedItem="{Binding Root.SelectedFrequency, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" />
+
+                                <TextBlock Text="Alarm Duration: " Grid.Row="1" Grid.Column="0"/>
+                                <ComboBox Margin="0,6,0,0" Grid.Row="1" Grid.Column="1" MinWidth="100" ItemTemplate="{StaticResource FrequencyDataTemplate}"
+                                      ItemsSource="{Binding Root.DurationList, Mode=OneWay}" 
+                                      SelectedItem="{Binding Root.SelectedDuration, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0">
+                                <TextBlock Text="Theme" Style="{StaticResource GridSplitTextStyle}" VerticalAlignment="Bottom"/>
+                            </StackPanel>
+                            <Grid Grid.Row="1"  Margin="21,6,0,0">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <CheckBox x:Name="chkRadio" Grid.Row="0" Grid.Column="0" IsChecked="{Binding Root.TurnOnRadio, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Content="Listen to the radio: "/>
+                                <TextBox Width="250" Text="{Binding Root.RadioUri, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" IsEnabled="{Binding IsChecked, Mode=OneWay, ElementName=chkRadio}" Grid.Row="0" Grid.Column="1" />
+
+                                <TextBlock Text="Image Location: " Grid.Row="1" Grid.Column="0"/>
+                                <TextBox Width="250" Margin="0,6,0,0" Text="{Binding Root.ImageLocation, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Grid.Row="1" Grid.Column="1" />
+
+                                <TextBlock Text="Refresh screen frequency: " Grid.Row="2" Grid.Column="0"/>
+                                <ComboBox Width="250" Margin="0,6,0,0" Grid.Row="2" Grid.Column="1" MinWidth="100" ItemTemplate="{StaticResource FrequencyDataTemplate}"
+                                      ItemsSource="{Binding Root.RefreshFrequencyList, Mode=OneWay}" 
+                                      SelectedItem="{Binding Root.RefreshScreenFrequency, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"/>
+                            </Grid>
+                        </Grid>
+
+                        <Grid Grid.Row="2" Margin="0,12,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel Grid.Row="0">
+                                <TextBlock Text="General" Style="{StaticResource GridSplitTextStyle}" VerticalAlignment="Bottom"/>
+                            </StackPanel>
+                            <Grid Grid.Row="1"  Margin="21,6,0,0">    
+                                <CheckBox IsChecked="{Binding Root.IsAutoStart, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Command="{Binding SetAutoStartCommand, Mode=OneWay}" Grid.Row="0" Grid.Column="0" MinWidth="100" Content="Start with system" VerticalAlignment="Top"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Style="{StaticResource TabHeaderStackPanelStyle}">
+                        <Image Source="{StaticResource AboutPng}" Style="{StaticResource TabHeaderImageStyle}"/>
+                        <TextBlock Text="About" Style="{StaticResource TabItemTextStyle}"/>
+                    </StackPanel>
+                </TabItem.Header>
+                <Grid Style="{StaticResource TabContentGridStyle}">
+                    <Grid Margin="12">
+                        <ContentControl Content="{Binding AboutView, Mode=OneWay}"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <StackPanel Grid.Row="0" Grid.Column="1" Margin="15" Orientation="Horizontal">
+            <Image Width="48" Source="{StaticResource HiClock}"/>
+            <TextBlock Margin="3,0,0,0" Foreground="#FF1297FB" VerticalAlignment="Bottom" FontWeight="Bold" >
+                <Run Text="Hiclock"/>
+                <LineBreak/>
+                <Run Text="v"/>
+                <Run Text="{Binding CurrentVersion, Mode=OneWay}"/>
+            </TextBlock>
+        </StackPanel>
+    </Grid>   
+    
+</UserControl>

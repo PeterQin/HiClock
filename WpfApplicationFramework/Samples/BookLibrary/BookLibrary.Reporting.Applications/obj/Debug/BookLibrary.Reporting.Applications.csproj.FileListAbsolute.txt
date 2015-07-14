@@ -1,0 +1,6 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\Output\Debug\Resources\BookLibrary.sdf
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\Output\Debug\Waf.BookLibrary.Reporting.Applications.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\Output\Debug\Waf.BookLibrary.Reporting.Applications.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\BookLibrary.Reporting.Applications\obj\Debug\Waf.BookLibrary.Reporting.Applications.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\BookLibrary.Reporting.Applications\obj\Debug\Waf.BookLibrary.Reporting.Applications.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\BookLibrary\BookLibrary.Reporting.Applications\obj\Debug\BookLibrary.Reporting.Applications.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\bin\x86\Release\Common.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\bin\x86\Release\Common.Application.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Application.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\obj\x86\Release\Common.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\obj\x86\Release\Common.Application.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Application.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Application.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\obj\x86\Release\Common.Application.csprojResolveAssemblyReference.cache
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\obj\x86\Release\Common.Application.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Application\obj\x86\Release\Common.Application.pdb

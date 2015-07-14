@@ -1,0 +1,5 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Util\bin\x86\Debug\Common.Util.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Util\bin\x86\Debug\Common.Util.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Util\obj\x86\Debug\Common.Util.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Util\obj\x86\Debug\Common.Util.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Util\obj\x86\Debug\Common.Util.csprojResolveAssemblyReference.cache

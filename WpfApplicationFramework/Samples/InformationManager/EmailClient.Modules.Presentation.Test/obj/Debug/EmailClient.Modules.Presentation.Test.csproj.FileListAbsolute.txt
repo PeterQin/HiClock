@@ -1,0 +1,5 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.EmailClient.Modules.Presentation.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.EmailClient.Modules.Presentation.Test.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\EmailClient.Modules.Presentation.Test\obj\Debug\EmailClient.Modules.Presentation.Test.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\EmailClient.Modules.Presentation.Test\obj\Debug\Waf.InformationManager.EmailClient.Modules.Presentation.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\EmailClient.Modules.Presentation.Test\obj\Debug\Waf.InformationManager.EmailClient.Modules.Presentation.Test.pdb

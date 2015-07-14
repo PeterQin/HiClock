@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookLibraryModel" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="BookLibraryEntities">
+    <EntitySet Name="Books" EntityType="BookLibraryModel.Book" />
+    <EntitySet Name="Persons" EntityType="BookLibraryModel.Person" />
+    <AssociationSet Name="FK_Person_Book" Association="BookLibraryModel.FK_Person_Book">
+      <End Role="Person" EntitySet="Persons" />
+      <End Role="Book" EntitySet="Books" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Title" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Author" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="Publisher" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="PublishDate" Type="DateTime" />
+    <Property Name="Isbn" Type="String" MaxLength="14" Unicode="true" FixedLength="false" />
+    <Property Name="Pages" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="LendTo" Relationship="BookLibraryModel.FK_Person_Book" FromRole="Book" ToRole="Person" />
+    <Property Name="LanguageInternal" Type="Int32" Nullable="false" a:GetterAccess="Private" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Guid" Nullable="false" />
+    <Property Name="Firstname" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Lastname" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Borrowed" Relationship="BookLibraryModel.FK_Person_Book" FromRole="Person" ToRole="Book" a:SetterAccess="Private" xmlns:a="http://schemas.microsoft.com/ado/2006/04/codegeneration" />
+  </EntityType>
+  <Association Name="FK_Person_Book">
+    <End Role="Person" Type="BookLibraryModel.Person" Multiplicity="0..1" />
+    <End Role="Book" Type="BookLibraryModel.Book" Multiplicity="*" />
+  </Association>
+</Schema>

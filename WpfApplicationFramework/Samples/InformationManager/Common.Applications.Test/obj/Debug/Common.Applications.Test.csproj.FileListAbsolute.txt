@@ -1,0 +1,5 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Common.Applications.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Common.Applications.Test.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Applications.Test\obj\Debug\Common.Applications.Test.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Applications.Test\obj\Debug\Waf.InformationManager.Common.Applications.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Applications.Test\obj\Debug\Waf.InformationManager.Common.Applications.Test.pdb

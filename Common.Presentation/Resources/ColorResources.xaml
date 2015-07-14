@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--Common-->
+    <SolidColorBrush x:Key="HeaderBackground" Color="#FF313131"/>
+    <SolidColorBrush x:Key="HeaderForeground" Color="White"/>
+    <SolidColorBrush x:Key="BaseBackground" Color="#FFEFEFEF"/>
+    <SolidColorBrush x:Key="BaseForeground" Color="#FF434343"/>
+    <SolidColorBrush x:Key="ControlBackground" Color="#FF4B565F"/>
+    <SolidColorBrush x:Key="TextContentBackground" Color="#FFCDCDCD"/>
+    <SolidColorBrush x:Key="TextContentForeground" Color="Black"/>
+    
+    <!--Button-->
+    <SolidColorBrush x:Key="ButtonNormalBackground" Color="#FF7F7F7F"/>
+    <SolidColorBrush x:Key="ButtonMouseOverBackground" Color="#FF36A6D0"/>
+    <SolidColorBrush x:Key="ButtonMousePressBackground" Color="#FF2788AC"/>
+    <SolidColorBrush x:Key="ButtonDisableBackground" Color="#FFE5E5E5"/>
+    <SolidColorBrush x:Key="ButtonForeground" Color="WhiteSmoke"/>
+    <SolidColorBrush x:Key="ButtonDisableForeground" Color="Gray"/>
+    
+    <!--Progress Bar-->
+    <SolidColorBrush x:Key="ProgressContainerBackground" Color="#FF3B3B3B"/>
+    <SolidColorBrush x:Key="ProgressBackground" Color="#FF2E2E2E"/>
+    <SolidColorBrush x:Key="ProgressForeground" Color="#FF4497DB"/>
+    <SolidColorBrush x:Key="ProgressBorderBrush1" Color="#FF414141"/>
+    <SolidColorBrush x:Key="ProgressBorderBrush2" Color="#FF393939"/>
+    <SolidColorBrush x:Key="ProgressBorderBrush3" Color="#FF242424"/>
+</ResourceDictionary>

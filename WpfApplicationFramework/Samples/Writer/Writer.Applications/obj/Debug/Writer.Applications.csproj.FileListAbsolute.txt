@@ -1,0 +1,11 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\Waf.Writer.Applications.dll.config
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\Waf.Writer.Applications.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\Waf.Writer.Applications.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\de\Waf.Writer.Applications.resources.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Writer.Applications.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Waf.Writer.Applications.Properties.Resources.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Waf.Writer.Applications.Properties.Resources.de.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Writer.Applications.csproj.GenerateResource.Cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\de\Waf.Writer.Applications.resources.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Waf.Writer.Applications.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Applications\obj\Debug\Waf.Writer.Applications.pdb

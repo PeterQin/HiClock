@@ -1,0 +1,50 @@
+﻿<Window x:Class="Main.Presentation.ShellWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HiClock" Height="500" Width="800"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
+        Icon="{StaticResource HiClockIco}" StateChanged="Window_StateChanged" WindowStartupLocation="CenterScreen" MinHeight="550" MinWidth="730">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Common.Presentation;Component/Resources/CommonResources.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <tb:TaskbarIcon IconSource="{StaticResource HiClockIco}" Grid.RowSpan="3" TrayLeftMouseUp="TaskbarIcon_TrayLeftMouseUp">
+            <tb:TaskbarIcon.TrayToolTip>
+                <Border Background="#FF04BDDA" BorderBrush="#FF77D8E8" BorderThickness="1">
+                    <Grid Margin="12">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Foreground="WhiteSmoke" FontSize="15" FontWeight="Bold" Grid.Row="0" Text="Next Alarm:"/>
+                        <TextBlock Foreground="WhiteSmoke" FontSize="15" Grid.Row="1" Text="{Binding ShellService.NextAlarm}"/>
+                    </Grid>
+                </Border>
+            </tb:TaskbarIcon.TrayToolTip>
+            <tb:TaskbarIcon.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="_HiClock" Command="{Binding ShowShellWindowCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="{StaticResource HiClock}" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="_Sleep" Command="{Binding ShowSleepScreenCommmand}">
+                        <MenuItem.Icon>
+                            <Image Source="{StaticResource TeaPng}" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Header="_Exit" Command="{Binding ExitAppCommand}">
+                        <MenuItem.Icon>
+                            <Image Source="{StaticResource PowerOffPng}" Width="16"/>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                </ContextMenu>
+            </tb:TaskbarIcon.ContextMenu>
+        </tb:TaskbarIcon>
+        <ContentControl Content="{Binding ShellService.ShellContent, Mode=OneWay}"/>
+    </Grid>
+</Window>

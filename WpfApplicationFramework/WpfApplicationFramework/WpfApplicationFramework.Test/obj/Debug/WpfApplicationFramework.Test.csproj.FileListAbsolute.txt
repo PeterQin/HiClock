@@ -1,0 +1,5 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.Test.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.Test\obj\Debug\WpfApplicationFramework.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.Test\obj\Debug\WpfApplicationFramework.Test.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.Test\obj\Debug\WpfApplicationFramework.Test.csprojResolveAssemblyReference.cache

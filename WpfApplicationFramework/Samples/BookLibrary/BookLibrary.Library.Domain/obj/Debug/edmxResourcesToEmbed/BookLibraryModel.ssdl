@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BookLibraryModel.Store" Alias="Self" Provider="System.Data.SqlServerCe.3.5" ProviderManifestToken="3.5" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="BookLibraryModelStoreContainer">
+    <EntitySet Name="Book" EntityType="BookLibraryModel.Store.Book" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <EntitySet Name="Person" EntityType="BookLibraryModel.Store.Person" store:Type="Tables" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" />
+    <AssociationSet Name="FK_Person_Book" Association="BookLibraryModel.Store.FK_Person_Book">
+      <End Role="Person" EntitySet="Person" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Title" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Author" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Publisher" Type="nvarchar" MaxLength="100" />
+    <Property Name="PublishDate" Type="datetime" />
+    <Property Name="Isbn" Type="nvarchar" MaxLength="14" />
+    <Property Name="Language" Type="int" Nullable="false" />
+    <Property Name="Pages" Type="int" Nullable="false" />
+    <Property Name="PersonId" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="Firstname" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Lastname" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Email" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <Association Name="FK_Person_Book">
+    <End Role="Person" Type="BookLibraryModel.Store.Person" Multiplicity="0..1" />
+    <End Role="Book" Type="BookLibraryModel.Store.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Person">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="PersonId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

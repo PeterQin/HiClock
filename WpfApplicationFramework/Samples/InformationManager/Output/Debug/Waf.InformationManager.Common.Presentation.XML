@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Waf.InformationManager.Common.Presentation</name>
+    </assembly>
+    <members>
+        <member name="T:Waf.InformationManager.Common.Presentation.Controls.SearchBox">
+            <summary>
+            Represents a control that can be used to enter a search or filter text.
+            </summary>
+        </member>
+        <member name="F:Waf.InformationManager.Common.Presentation.Controls.SearchBox.SearchTextProperty">
+            <summary>
+            Identifies the SearchText dependency property.
+            </summary>
+        </member>
+        <member name="F:Waf.InformationManager.Common.Presentation.Controls.SearchBox.HintTextProperty">
+            <summary>
+            Identifies the HintText dependency property.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Common.Presentation.Controls.SearchBox.SearchText">
+            <summary>
+            Gets or sets the search text.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Common.Presentation.Controls.SearchBox.HintText">
+            <summary>
+            Gets or sets the hint text. This text is shown in the background if no search text is entered.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Waf.InformationManager.AddressBook.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Waf.InformationManager.AddressBook.Interfaces.Applications.IAddressBookService">
+            <summary>
+            Exposes the address book to other modules.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.AddressBook.Interfaces.Applications.IAddressBookService.ShowSelectContactView(System.Object)">
+            <summary>
+            Shows a view which allows the user to select a contact.
+            </summary>
+            <param name="ownerView">The owner view.</param>
+            <returns>The selected contact or null when the user canceled this operation.</returns>
+        </member>
+        <member name="T:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto">
+            <summary>
+            Contains contact informations. This is a data transfer object that can be used to pass information over module boundaries.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto"/> class.
+            </summary>
+            <param name="firstname">The first name.</param>
+            <param name="lastname">The last name.</param>
+            <param name="email">The email.</param>
+        </member>
+        <member name="P:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto.Firstname">
+            <summary>
+            Gets the first name.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto.Lastname">
+            <summary>
+            Gets the last name.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.AddressBook.Interfaces.Domain.ContactDto.Email">
+            <summary>
+            Gets the email.
+            </summary>
+        </member>
+    </members>
+</doc>

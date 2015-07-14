@@ -1,0 +1,6 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.UnitTesting.xml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.UnitTesting.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.UnitTesting.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.UnitTesting\obj\Debug\WpfApplicationFramework.UnitTesting.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.UnitTesting\obj\Debug\WpfApplicationFramework.UnitTesting.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework.UnitTesting\obj\Debug\WpfApplicationFramework.UnitTesting.pdb

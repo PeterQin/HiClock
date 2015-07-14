@@ -1,0 +1,52 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\bin\x86\Release\Common.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\bin\x86\Release\Common.Presentation.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Presentation.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ImageResources.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ThemeResources.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\BureauBlack.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\BureauBlue.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ExpressionDark.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ExpressionLight.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ShinyBlue.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ShinyRed.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\WhistlerBlue.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation_MarkupCompile.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation_MarkupCompile.lref
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\CommonResources.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Views\SupportWindow.baml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Views\SupportWindow.g.cs
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.rcSupport.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ColorResources.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Presentation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\Common.Presentation.pdb
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ColorResources.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ImageResources.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\ThemeResources.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\BureauBlack.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\BureauBlue.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ExpressionDark.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ExpressionLight.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ShinyBlue.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\ShinyRed.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\WPF Themes\WhistlerBlue.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Views\SupportWindow.g.cs
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation_MarkupCompile.cache
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation_MarkupCompile.lref
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Resources\CommonResources.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Views\SupportWindow.baml
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.g.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.Properties.Resources.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.rcSupport.resources
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.csproj.GenerateResource.Cache
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\x86\Release\Common.Presentation.pdb

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<ViewModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Solution>C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock_Solution.sln</Solution>
+  <SetupProject>C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\SetupProject.wixproj</SetupProject>
+  <SetupSolution>C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock_Solution.sln</SetupSolution>
+  <SetupOutput>C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Build</SetupOutput>
+  <SetupProjOriginalOutput>\bin\Release</SetupProjOriginalOutput>
+  <BuildSolutionCmd>devenv "{0}" /rebuild {1} </BuildSolutionCmd>
+  <BuildProjectCmd>/project "{0}" /projectconfig {1}</BuildProjectCmd>
+  <BuildConfig>"Release|x86"</BuildConfig>
+  <DevenvFolder>C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\</DevenvFolder>
+  <DevenvFolder2005>C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE</DevenvFolder2005>
+  <DevenvFolder2008>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE</DevenvFolder2008>
+  <DevenvFolder2010>C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE</DevenvFolder2010>
+  <DevenvFolder2012>C:\Program Files (x86)\Microsoft Visual Studio 11.0\Common7\IDE\</DevenvFolder2012>
+  <AssemblyInfoSource>
+    <TAssemblyInfo>
+      <InfoName>AssemblyCompany</InfoName>
+      <InfoValue>Peter_Qin@live.com</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyCopyright</InfoName>
+      <InfoValue>Copyright © Peter 2014</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyVersion</InfoName>
+      <InfoValue>1.0.0.3</InfoValue>
+    </TAssemblyInfo>
+    <TAssemblyInfo>
+      <InfoName>AssemblyFileVersion</InfoName>
+      <InfoValue>1.0.0.3</InfoValue>
+    </TAssemblyInfo>
+  </AssemblyInfoSource>
+</ViewModel>

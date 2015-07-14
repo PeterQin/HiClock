@@ -1,0 +1,5 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.AddressBook.Modules.Domain.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.AddressBook.Modules.Domain.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\AddressBook.Modules.Domain\obj\Debug\Waf.InformationManager.AddressBook.Modules.Domain.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\AddressBook.Modules.Domain\obj\Debug\Waf.InformationManager.AddressBook.Modules.Domain.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\AddressBook.Modules.Domain\obj\Debug\AddressBook.Modules.Domain.csprojResolveAssemblyReference.cache

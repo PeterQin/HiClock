@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension">
+  <Product Id="EB098F04-D2FE-4A68-9B5C-DFB6D804BF6A" Name="HiClock" Language="1033" Version="1.0.0.1" Manufacturer="Peter Qin" UpgradeCode="73FD0013-33A6-4BAD-A7DD-8FAD4A10F1A3">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate EmbedCab="yes"/>
+
+    <Feature Id="ProductFeature" Title="HiClock" Level="1">
+      <ComponentGroupRef Id="ProductComponents" />
+      <ComponentGroupRef Id="StartMenuComponents"/>
+      <ComponentGroupRef Id="DesktopComponents"/>
+    </Feature>
+
+    <PropertyRef Id="NETFRAMEWORK40CLIENT"/>
+    <Condition Message="This application requires .NET Framework 4.0 Client Profile. Please install the .NET Framework then run this installer again.">
+      <![CDATA[Installed OR NETFRAMEWORK40CLIENT]]>
+    </Condition>
+
+    <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER" />
+    <UIRef Id="WixUI_InstallDir"/>
+    <UI>
+      <Publish Dialog="ExitDialog" Control="Finish" Event="DoAction" Value="LaunchApplication">WIXUI_EXITDIALOGOPTIONALCHECKBOX = 1 and NOT Installed</Publish>
+    </UI>
+    <Property Id="WIXUI_EXITDIALOGOPTIONALCHECKBOXTEXT" Value="Launch HiClock" />
+    <Property Id="WixShellExecTarget" Value="[#HiClock.exe]" />
+    <CustomAction Id="LaunchApplication" BinaryKey="WixCA" DllEntry="WixShellExec" Impersonate="yes" />
+    <Icon Id="HiClock.ico" SourceFile="Resources\HiClock.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="HiClock.ico"/>
+
+    <WixVariable Id="WixUIBannerBmp" Value="Resources/Banner.bmp" />
+    <WixVariable Id="WixUIDialogBmp" Value="Resources/Dialog.bmp"/>
+  </Product>
+
+  <Fragment>
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="INSTALLFOLDER" Name="HiClock" />
+      </Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="StartMenuFolderRoot" Name="HiClock"/>
+      </Directory>
+      <Directory Id="DesktopFolder"/>
+    </Directory>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      <!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+      <!-- <Component Id="ProductComponent"> -->
+      <!-- TODO: Insert files, registry keys, and other resources here. -->
+      <!-- </Component> -->
+
+      <Component Id="HiClock.exe" Guid="B3D4719D-0166-473F-BC6D-D94B33AF5F5B">
+        <File Id="HiClock.exe" Source="$(var.Assembler.TargetDir)\HiClock.exe" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Common.Application" Guid="A74A61B2-E90F-4819-8DCF-E09C23F1BD01">
+        <File Id="Common.Application.dll" Source="$(var.Common.Application.TargetDir)\Common.Application.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Common.Business" Guid="1EC56221-6573-4A76-A846-3C7E771AC2FD">
+        <File Id="Common.Business.dll" Source="$(var.Common.Business.TargetDir)\Common.Business.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Common.Foundation" Guid="582C1870-F6AA-4B57-B3FE-5B0B01F5B4ED">
+        <File Id="Common.Foundation.dll" Source="$(var.Common.Foundation.TargetDir)\Common.Foundation.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Common.Presentation" Guid="BED457BD-171C-4239-B3AD-88039562E1DC">
+        <File Id="Common.Presentation.dll" Source="$(var.Common.Presentation.TargetDir)\Common.Presentation.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="HiClock.Application" Guid="24FBFF0C-110B-489E-9F87-DAD4556314DB">
+        <File Id="HiClock.Application.dll" Source="$(var.HiClock.Application.TargetDir)\HiClock.Application.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="HiClock.Domain" Guid="4ACB6050-FF77-4540-8880-FF54F01E4424">
+        <File Id="HiClock.Domain.dll" Source="$(var.HiClock.Domain.TargetDir)\HiClock.Domain.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="HiClock.Presentation" Guid="7DB2ABD6-B675-4387-91F5-49A380FD9272">
+        <File Id="HiClock.Presentation.dll" Source="$(var.HiClock.Presentation.TargetDir)\HiClock.Presentation.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="HiClock.WinForm" Guid="DA59247A-E934-452A-AE30-23EAF9A61960">
+        <File Id="HiClock.WinForm.dll" Source="$(var.HiClock.WinForm.TargetDir)\HiClock.WinForm.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Main.Application" Guid="1A80B18A-EB10-4C2B-B650-9CD90B4C73A8">
+        <File Id="Main.Application.dll" Source="$(var.Main.Application.TargetDir)\Main.Application.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Main.Presentation" Guid="B78F8ABB-B44A-45E5-8FC8-EC7405227B7E">
+        <File Id="Main.Presentation.dll" Source="$(var.Main.Presentation.TargetDir)\Main.Presentation.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="Hardcodet.Wpf.TaskbarNotification" Guid="D632E0BE-90DC-4E5D-93B6-2C7F057FB187">
+        <File Id="Hardcodet.Wpf.TaskbarNotification.dll" Source="$(var.NotifyIconWpf.TargetDir)\Hardcodet.Wpf.TaskbarNotification.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+      
+      <Component Id="WpfApplicationFramework" Guid="0F112085-0142-4041-94DE-BBA1AB407D0B">
+        <File Id="WpfApplicationFramework" Source="$(var.WpfApplicationFramework.TargetDir)\WpfApplicationFramework.dll" Checksum="yes" KeyPath="yes"/>
+      </Component>
+
+      <Component Id="AboutHiClock.rtf" Guid="{37AEB279-0A29-4EB9-8E3D-23C99DB0F335}">
+        <File Id="AboutHiClock.rtf" Source="Resources\About HiClock.rtf" KeyPath="yes"/>
+      </Component>
+
+    </ComponentGroup>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="StartMenuComponents" Directory="StartMenuFolderRoot">
+      <Component Id="HiClockStartMenuShortcutComponent" Guid="5ACF2574-9D60-4CA0-84F4-553831BA19A8">
+        <Shortcut Id="HiClockStartMenuShortcut" Name="HiClock" Description="Launch HiClock Now" Target="[INSTALLFOLDER]HiClock.exe" WorkingDirectory="INSTALLFOLDER"/>
+        <Shortcut Id="ReadmeStartMenuShortcut" Name="About HiClock.rtf" Description="About HiClock" Target="[INSTALLFOLDER]About HiClock.rtf" WorkingDirectory="INSTALLFOLDER"/>
+        <Shortcut Id="UninstallProduct" Name="Uninstall HiClock" Description="Uninstalls HiClock Now" Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]"/>
+        <RemoveFolder Id="StartMenuFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Peter\HiClock" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="DesktopComponents" Directory="DesktopFolder">
+      <Component Id="WpfDesktopShortcutComponent" Guid="D8D77A90-4430-4F5F-83ED-4826AD3F47E2">
+        <Shortcut Id="HiClockDesktopShortcut" Name="HiClock" Description="Launch HiClock Now" Target="[INSTALLFOLDER]HiClock.exe" WorkingDirectory="INSTALLFOLDER"/>
+        <RemoveFolder Id="DesktopFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\Peter\HiClock" Name="DesktopShortcut" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+</Wix>

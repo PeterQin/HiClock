@@ -1,0 +1,13 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Infrastructure.Modules.Presentation.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Resources\ModuleResources.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Views\ShellWindow.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Views\ShellWindow.g.cs
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation_MarkupCompile.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation_MarkupCompile.lref
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Resources\ConverterResources.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation.g.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Infrastructure.Modules.Presentation\obj\Debug\Waf.InformationManager.Infrastructure.Modules.Presentation.pdb

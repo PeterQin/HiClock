@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Waf.InformationManager.Infrastructure.Interfaces</name>
+    </assembly>
+    <members>
+        <member name="T:Waf.InformationManager.Infrastructure.Interfaces.Applications.INavigationNode">
+            <summary>
+            Represents a navigation node.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.INavigationNode.Name">
+            <summary>
+            Gets the name.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.INavigationNode.ItemCount">
+            <summary>
+            Gets or sets the item count. If ItemCount is not relevant for this node
+            then the value is null.
+            </summary>
+        </member>
+        <member name="T:Waf.InformationManager.Infrastructure.Interfaces.Applications.INavigationService">
+            <summary>
+            Exposes the navigation functionality of the shell.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.Infrastructure.Interfaces.Applications.INavigationService.AddNavigationNode(System.String,System.Action,System.Action,System.Double,System.Double)">
+            <summary>
+            Adds a navigation node in the navigation view of the shell.
+            </summary>
+            <param name="name">The name of the node.</param>
+            <param name="showAction">The show action which is called when the user selects the node.</param>
+            <param name="closeAction">The close action which is called when the node is deselected.</param>
+            <param name="group">The group number defines the position in the navigation view. All items with the same group number are considered 
+            to be in the same group. The navigation list is ordered from lower to higher numbers.</param>
+            <param name="order">The order defines the position in the group. The navigation list is ordered from lower to higher numbers.</param>
+            <returns>The created navigation node.</returns>
+        </member>
+        <member name="T:Waf.InformationManager.Infrastructure.Interfaces.Applications.IShellService">
+            <summary>
+            Exposes the functionality of the shell.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.Infrastructure.Interfaces.Applications.IShellService.AddToolBarCommands(System.Collections.Generic.IEnumerable{Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand})">
+            <summary>
+            Adds the specified tool bar commands.
+            </summary>
+            <param name="commands">The tool bar commands.</param>
+        </member>
+        <member name="M:Waf.InformationManager.Infrastructure.Interfaces.Applications.IShellService.ClearToolBarCommands">
+            <summary>
+            Clears the tool bar commands.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.IShellService.ShellView">
+            <summary>
+            Gets the shell view. Use this object as owner when you need to show a modal dialog.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.IShellService.ContentView">
+            <summary>
+            Gets or sets the content view which is shown by the shell.
+            </summary>
+        </member>
+        <member name="T:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand">
+            <summary>
+            Defines a tool bar command
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand.#ctor(System.Windows.Input.ICommand,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand"/> class.
+            </summary>
+            <param name="command">The command which is invoked when the user clicks on the tool bar button.</param>
+            <param name="text">The text of the tool bar button.</param>
+            <param name="toolTip">The tooltip of the tool bar button.</param>
+            <exception cref="T:System.ArgumentNullException">command must not be null.</exception>
+            <exception cref="T:System.ArgumentException">text must not be null or empty.</exception>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand.Command">
+            <summary>
+            Gets the command which is invoked when the user clicks on the tool bar button.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand.Text">
+            <summary>
+            Gets the text of the tool bar button.
+            </summary>
+        </member>
+        <member name="P:Waf.InformationManager.Infrastructure.Interfaces.Applications.ToolBarCommand.ToolTip">
+            <summary>
+            Gets the tool tip of the tool bar button.
+            </summary>
+        </member>
+    </members>
+</doc>

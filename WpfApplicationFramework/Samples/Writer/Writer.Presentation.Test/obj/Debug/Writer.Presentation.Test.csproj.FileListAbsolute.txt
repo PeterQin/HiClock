@@ -1,0 +1,5 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\Waf.Writer.Presentation.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Output\Debug\Waf.Writer.Presentation.Test.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Presentation.Test\obj\Debug\Writer.Presentation.Test.csprojResolveAssemblyReference.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Presentation.Test\obj\Debug\Waf.Writer.Presentation.Test.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Writer\Writer.Presentation.Test\obj\Debug\Waf.Writer.Presentation.Test.pdb

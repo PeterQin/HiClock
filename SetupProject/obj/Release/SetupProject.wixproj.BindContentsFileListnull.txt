@@ -1,0 +1,14 @@
+Resources\About HiClock.rtf
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Common.Application.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Common.Business.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Common.Foundation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Common.Presentation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\Output\Release\\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\HiClock.Application.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\HiClock.Domain.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\HiClock.exe
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\HiClock.Presentation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\HiClock.WinForm.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Main.Application.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Release\\Main.Presentation.dll
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\Output\Release\\WpfApplicationFramework.dll

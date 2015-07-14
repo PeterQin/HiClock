@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Waf.InformationManager.Common.Domain</name>
+    </assembly>
+    <members>
+        <member name="T:Waf.InformationManager.Common.Domain.EmailValidationAttribute">
+            <summary>
+            Specifies an email data field. This attribute defines the validation rule for verifying an email address.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.Common.Domain.EmailValidationAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Waf.InformationManager.Common.Domain.EmailValidationAttribute"/> class.
+            </summary>
+        </member>
+        <member name="T:Waf.InformationManager.Common.Domain.ValidationModel">
+            <summary>
+            Defines the base class for a model with validation support.
+            </summary>
+        </member>
+        <member name="M:Waf.InformationManager.Common.Domain.ValidationModel.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Waf.InformationManager.Common.Domain.ValidationModel"/> class.
+            </summary>
+        </member>
+    </members>
+</doc>

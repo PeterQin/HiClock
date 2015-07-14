@@ -1,0 +1,16 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\Output\Debug\LocalizationSample.exe.config
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\Output\Debug\LocalizationSample.exe
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\Output\Debug\LocalizationSample.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\Output\Debug\de\LocalizationSample.resources.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\Presentation\ShellWindow.g.cs
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\App.g.cs
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample_MarkupCompile.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample_MarkupCompile.lref
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\Presentation\ShellWindow.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.g.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.Properties.Resources.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.Properties.Resources.de.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.csproj.GenerateResource.Cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\de\LocalizationSample.resources.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.exe
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\Localization\LocalizationSample\obj\Debug\LocalizationSample.pdb

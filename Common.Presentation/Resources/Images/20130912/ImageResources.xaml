@@ -1,0 +1,13 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <BitmapSource x:Key="HiClock">Images/HiClock.png</BitmapSource>
+    <BitmapSource x:Key="HiClockIco">Images/HiClock.ico</BitmapSource>
+    <BitmapSource x:Key="BackPng">Images/Back.png</BitmapSource>
+    <BitmapSource x:Key="NextPng">Images/Next.png</BitmapSource>
+    <BitmapSource x:Key="PausePng">Images/Pause.png</BitmapSource>
+    <BitmapSource x:Key="PlayPng">Images/Play.png</BitmapSource>
+    <BitmapSource x:Key="PowerOffPng">Images/PowerOff.png</BitmapSource>
+    <BitmapSource x:Key="PowerOnPng">Images/PowerOn.png</BitmapSource>
+    <BitmapSource x:Key="SettingPng">Images/Setting.png</BitmapSource>
+    <BitmapSource x:Key="VolumePng">Images/Volume.png</BitmapSource>
+</ResourceDictionary>

@@ -1,0 +1,7 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\bin\x86\Debug\HiClock.WinForm.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\bin\x86\Debug\HiClock.WinForm.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\obj\x86\Debug\HiClock.WinForm.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\obj\x86\Debug\HiClock.WinForm.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\obj\x86\Debug\HiClock.WinForm.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\obj\x86\Debug\HiClock.WinForm.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\obj\x86\Debug\HiClock.WinForm.csprojResolveAssemblyReference.cache

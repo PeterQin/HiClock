@@ -1,0 +1,9 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\bin\x86\Debug\WpfApplicationFramework.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\bin\x86\Debug\WpfApplicationFramework.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\bin\x86\Debug\WpfApplicationFramework.xml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.xml
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\WpfApplicationFramework.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\obj\x86\Debug\WpfApplicationFramework.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\obj\x86\Debug\WpfApplicationFramework.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\obj\x86\Debug\WpfApplicationFramework.csprojResolveAssemblyReference.cache

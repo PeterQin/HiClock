@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 11.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="11.0">
+ <Targets>
+  <Target Name="C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\bin\x86\Release\WpfApplicationFramework.dll">
+   <Modules>
+    <Module Name="wpfapplicationframework.dll">
+     <Namespaces>
+      <Namespace Name="System.Waf.Applications.Services">
+       <Types>
+        <Type Name="FileDialogResult" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#FileNames" Kind="Property" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Certainty="50" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Applications\Services" File="FileDialogResult.cs" Line="15">Change 'FileDialogResult.FileNames' to return a collection or make it a method.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FileDialogServiceExtensions" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ShowOpenFileDialog(System.Waf.Applications.Services.IFileDialogService,System.Waf.Applications.Services.FileType,System.Boolean)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Applications\Services" File="FileDialogServiceExtensions.cs" Line="36">In method 'FileDialogServiceExtensions.ShowOpenFileDialog(this IFileDialogService, FileType, bool)', correct the spelling of 'Multi' in parameter name 'aMultiSelect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Applications\Services" File="FileDialogServiceExtensions.cs" Line="36">In method 'FileDialogServiceExtensions.ShowOpenFileDialog(this IFileDialogService, FileType, bool)', correct the spelling of 'a' in parameter name 'aMultiSelect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IFileDialogService" Kind="Interface" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#ShowOpenFileDialog(System.Object,System.Collections.Generic.IEnumerable`1&lt;System.Waf.Applications.Services.FileType&gt;,System.Waf.Applications.Services.FileType,System.String,System.Boolean)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="Multi" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IFileDialogService.ShowOpenFileDialog(object, IEnumerable&lt;FileType&gt;, FileType, string, bool)', correct the spelling of 'Multi' in parameter name 'aMultiSelect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning">In method 'IFileDialogService.ShowOpenFileDialog(object, IEnumerable&lt;FileType&gt;, FileType, string, bool)', correct the spelling of 'a' in parameter name 'aMultiSelect' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+      <Namespace Name="System.Waf.Presentation.Commands">
+       <Types>
+        <Type Name="EventActuator" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+           <Issue Name="ProvideDisposeBool" Certainty="95" Level="Error">Provide an overridable implementation of Dispose(bool) on 'EventActuator' or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#BindEvent(System.Object,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalError" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="83">Modify 'EventActuator.BindEvent(object, string)' to catch a more specific exception than 'Exception' or rethrow the exception.</Issue>
+            </Message>
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="60">In method 'EventActuator.BindEvent(object, string)', correct the spelling of 'a' in parameter name 'aEventName' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="60">In method 'EventActuator.BindEvent(object, string)', correct the spelling of 'a' in parameter name 'aOwner' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="68">In externally visible method 'EventActuator.BindEvent(object, string)', validate parameter 'aOwner' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Dispose()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="NonBreaking">
+             <Issue Name="NotCalled" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="118">Change 'EventActuator.Dispose()' to call 'GC.SuppressFinalize(object)'. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Issue>
+            </Message>
+            <Message TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="DisposeImplementation" Certainty="95" Level="Error" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventActuator.cs" Line="118">Modify 'EventActuator.Dispose()' so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EventBinding" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+           <Issue Name="DependsOnFix" Certainty="95" Level="CriticalError">Implement IDisposable on 'EventBinding' because it creates members of the following IDisposable types: 'EventActuator'. If 'EventBinding' has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#Bind(System.Object)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="a" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameter" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="149">In method 'EventBinding.Bind(object)', correct the spelling of 'a' in parameter name 'aOwner' or remove it entirely if it represents any sort of Hungarian notation.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCommand(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="82">In method 'EventBinding.GetCommand(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="82">In externally visible method 'EventBinding.GetCommand(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCommandParameter(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="116">In method 'EventBinding.GetCommandParameter(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="116">In externally visible method 'EventBinding.GetCommandParameter(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetEventName(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="48">In method 'EventBinding.GetEventName(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="48">In externally visible method 'EventBinding.GetEventName(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetCommand(System.Windows.DependencyObject,System.Windows.Input.ICommand)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="90">In method 'EventBinding.SetCommand(DependencyObject, ICommand)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="90">In externally visible method 'EventBinding.SetCommand(DependencyObject, ICommand)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetCommandParameter(System.Windows.DependencyObject,System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="124">In method 'EventBinding.SetCommandParameter(DependencyObject, object)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="124">In externally visible method 'EventBinding.SetCommandParameter(DependencyObject, object)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetEventName(System.Windows.DependencyObject,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="56">In method 'EventBinding.SetEventName(DependencyObject, string)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBinding.cs" Line="56">In externally visible method 'EventBinding.SetEventName(DependencyObject, string)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="EventBindings" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#GetEventBindings(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBindings.cs" Line="27">In method 'EventBindings.GetEventBindings(DependencyObject)', consider providing a more meaningful name than parameter name 'o'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBindings.cs" Line="27">In externally visible method 'EventBindings.GetEventBindings(DependencyObject)', validate parameter 'o' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#OnEventBindingsChanged(System.Windows.DependencyObject,System.Windows.DependencyPropertyChangedEventArgs)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBindings.cs" Line="48">In method 'EventBindings.OnEventBindingsChanged(DependencyObject, DependencyPropertyChangedEventArgs)', consider providing a more meaningful name than parameter name 'o'.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetEventBindings(System.Windows.DependencyObject,System.Waf.Presentation.Commands.EventBindingCollection)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="o" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBindings.cs" Line="37">In method 'EventBindings.SetEventBindings(DependencyObject, EventBindingCollection)', consider providing a more meaningful name than parameter name 'o'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="EventBindings.cs" Line="37">In externally visible method 'EventBindings.SetEventBindings(DependencyObject, EventBindingCollection)', validate parameter 'o' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SingleEventBinding" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+           <Issue Name="CSharp2_0" Certainty="90" Level="Error">Because type 'SingleEventBinding' contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Issue>
+          </Message>
+         </Messages>
+         <Members>
+          <Member Name="#FetchOrCreateActuator(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Private" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Name="ExceptionEdge" Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="146">In method 'SingleEventBinding.FetchOrCreateActuator(DependencyObject)', object 'actuator' is not disposed along all exception paths. Call System.IDisposable.Dispose on object 'actuator' before all references to it are out of scope.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCommand(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="77">In method 'SingleEventBinding.GetCommand(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="77">In externally visible method 'SingleEventBinding.GetCommand(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetCommandParameter(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="112">In method 'SingleEventBinding.GetCommandParameter(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="112">In externally visible method 'SingleEventBinding.GetCommandParameter(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#GetEventName(System.Windows.DependencyObject)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="40">In method 'SingleEventBinding.GetEventName(DependencyObject)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="40">In externally visible method 'SingleEventBinding.GetEventName(DependencyObject)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetCommand(System.Windows.DependencyObject,System.Windows.Input.ICommand)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="85">In method 'SingleEventBinding.SetCommand(DependencyObject, ICommand)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="85">In externally visible method 'SingleEventBinding.SetCommand(DependencyObject, ICommand)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetCommandParameter(System.Windows.DependencyObject,System.Object)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="120">In method 'SingleEventBinding.SetCommandParameter(DependencyObject, object)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="120">In externally visible method 'SingleEventBinding.SetCommandParameter(DependencyObject, object)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#SetEventName(System.Windows.DependencyObject,System.String)" Kind="Method" Static="True" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message Id="d" TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="Breaking">
+             <Issue Name="MemberParameterMoreMeaningfulName" Certainty="75" Level="CriticalWarning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="48">In method 'SingleEventBinding.SetEventName(DependencyObject, string)', consider providing a more meaningful name than parameter name 'd'.</Issue>
+            </Message>
+            <Message Id="0" TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062" Status="Active" Created="2013-09-04 02:09:23Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="c:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\WpfApplicationFramework\Presentation\Commands" File="SingleEventBinding.cs" Line="48">In externally visible method 'SingleEventBinding.SetEventName(DependencyObject, string)', validate parameter 'd' before using it.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="CallGCSuppressFinalizeCorrectly" Category="Microsoft.Usage" CheckId="CA1816">
+   <Name>Call GC.SuppressFinalize correctly</Name>
+   <Description>Call GC.SuppressFinalize to suppress finalization of your instance once Dispose has been called. Objects that implement IDisposable should call SuppressFinalize from the IDisposable.Dispose method to prevent the garbage collector from calling Object.Finalize on an object that does not require it.</Description>
+   <Resolution Name="NotCalled">Change {0} to call {1}. This will prevent derived types that introduce a finalizer from needing to re-implement 'IDisposable' to call it.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182269(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Dispose objects before losing scope" Category="Microsoft.Reliability" CheckId="CA2000">
+   <Name>Dispose objects before losing scope</Name>
+   <Description>If a disposable object is not explicitly disposed before all references to it are out of scope, the object will be disposed at some indeterminate time when the garbage collector runs the finalizer of the object. Because an exceptional event might occur that will prevent the finalizer of the object from running, the object should be explicitly disposed instead.</Description>
+   <Resolution Name="ExceptionEdge">In method {0}, object {1} is not disposed along all exception paths. Call System.IDisposable.Dispose on object {1} before all references to it are out of scope.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182289(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="DoNotCatchGeneralExceptionTypes" Category="Microsoft.Design" CheckId="CA1031">
+   <Name>Do not catch general exception types</Name>
+   <Description>You should not catch Exception or SystemException. Catching generic exception types can hide run-time problems from the library user, and can complicate debugging. You should catch only those exceptions that you can handle gracefully.</Description>
+   <Resolution Name="Default">Modify {0} to catch a more specific exception than {1} or rethrow the exception.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182137(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="IdentifiersShouldBeSpelledCorrectly" Category="Microsoft.Naming" CheckId="CA1704">
+   <Name>Identifiers should be spelled correctly</Name>
+   <Description>The individual words that make up an identifier should not be abbreviated and should be spelled correctly. If this rule generates a false positive on a term that should be recognized, add the word to the FxCop custom dictionary.</Description>
+   <Resolution Name="MemberParameter">In method {0}, correct the spelling of '{1}' in parameter name {2} or remove it entirely if it represents any sort of Hungarian notation.</Resolution>
+   <Resolution Name="MemberParameterMoreMeaningfulName">In method {0}, consider providing a more meaningful name than parameter name {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/bb264492(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">CriticalWarning</MessageLevel>
+   <File Name="namingrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="ImplementIDisposableCorrectly" Category="Microsoft.Design" CheckId="CA1063">
+   <Name>Implement IDisposable correctly</Name>
+   <Description>All IDisposable types should implement the Dispose pattern correctly.</Description>
+   <Resolution Name="DisposeImplementation">Modify {0} so that it calls Dispose(true), then calls GC.SuppressFinalize on the current object instance ('this' or 'Me' in Visual Basic), and then returns.</Resolution>
+   <Resolution Name="ProvideDisposeBool">Provide an overridable implementation of Dispose(bool) on {0} or mark the type as sealed. A call to Dispose(false) should only clean up native resources. A call to Dispose(true) should clean up both managed and native resources.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms244737(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="PropertiesShouldNotReturnArrays" Category="Microsoft.Performance" CheckId="CA1819">
+   <Name>Properties should not return arrays</Name>
+   <Description>Properties that return arrays are prone to code inefficiencies. Consider using a collection or making this a method. See the design guidelines for more information.</Description>
+   <Resolution Name="Default">Change {0} to return a collection or make it a method.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/0fss9skc(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="50">Warning</MessageLevel>
+   <File Name="performancerules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="StaticHolderTypesShouldNotHaveConstructors" Category="Microsoft.Design" CheckId="CA1053">
+   <Name>Static holder types should not have constructors</Name>
+   <Description>Instances of types that define only static members do not need to be created. Many compilers will automatically add a public default constructor if no constructor is specified. To prevent this, adding an empty private constructor may be required.</Description>
+   <Resolution Name="CSharp2_0">Because type {0} contains only 'static' members, mark it as 'static' to prevent the compiler from adding a default public constructor.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182169(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="90">Error</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Types that own disposable fields should be disposable</Name>
+   <Description>Types that declare disposable members should also implement IDisposable. If the type does not own any unmanaged resources, do not implement a finalizer on it.</Description>
+   <Resolution Name="DependsOnFix">Implement IDisposable on {0} because it creates members of the following IDisposable types: {1}. If {0} has previously shipped, adding new members that implement IDisposable to this type is considered a breaking change to existing consumers.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172(VS.100).aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="11.0.0.0" />
+  </Rule>
+  <Rule TypeName="Validate arguments of public methods" Category="Microsoft.Design" CheckId="CA1062">
+   <Name>Validate arguments of public methods</Name>
+   <Description>All reference arguments passed to externally visible methods should be checked against null (Nothing in VB). If appropriate, throw a System.ArgumentNullException when the argument is null.</Description>
+   <Resolution Name="Default">In externally visible method {0}, validate parameter '{1}' before using it.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182182(VS.100).aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="11.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Category</String>
+  <String Key="Certainty">Certainty</String>
+  <String Key="CollapseAll">Collapse All</String>
+  <String Key="CheckId">Check Id</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">error(s)</String>
+  <String Key="ExpandAll">Expand All</String>
+  <String Key="Help">Help</String>
+  <String Key="Line">Line</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Location not stored in Pdb]</String>
+  <String Key="Project">Project</String>
+  <String Key="Resolution">Resolution</String>
+  <String Key="Rule">Rule</String>
+  <String Key="RuleFile">Rule File</String>
+  <String Key="RuleDescription">Rule Description</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Target</String>
+  <String Key="Warning">Warning</String>
+  <String Key="Warnings">warning(s)</String>
+  <String Key="ReportTitle">Code Analysis Report</String>
+ </Localized>
+</FxCopReport>

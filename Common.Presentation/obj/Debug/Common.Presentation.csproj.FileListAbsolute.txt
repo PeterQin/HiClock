@@ -1,0 +1,9 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\bin\Debug\Common.Presentation.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\bin\Debug\Common.Presentation.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\Debug\Common.Presentation.csprojResolveAssemblyReference.cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\Debug\Common.Presentation.Properties.Resources.resources
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\Debug\Common.Presentation.csproj.GenerateResource.Cache
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\Debug\Common.Presentation.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Common.Presentation\obj\Debug\Common.Presentation.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Output\Debug\Common.Presentation.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Output\Debug\Common.Presentation.pdb

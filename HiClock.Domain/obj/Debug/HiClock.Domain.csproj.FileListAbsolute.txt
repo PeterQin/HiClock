@@ -1,0 +1,6 @@
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock.Domain\bin\Debug\HiClock.Domain.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock.Domain\bin\Debug\HiClock.Domain.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock.Domain\obj\Debug\HiClock.Domain.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\HiClock.Domain\obj\Debug\HiClock.Domain.pdb
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Output\Debug\HiClock.Domain.dll
+c:\users\pqin.prod\documents\visual studio 2012\Projects\HiClock_Solution\Output\Debug\HiClock.Domain.pdb

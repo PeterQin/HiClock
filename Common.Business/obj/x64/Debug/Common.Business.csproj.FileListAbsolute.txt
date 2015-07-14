@@ -1,0 +1,7 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\bin\x64\Debug\Common.Business.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\bin\x64\Debug\Common.Business.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\obj\x64\Debug\Common.Business.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\obj\x64\Debug\Common.Business.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\bin\x64\Debug\TaglibSharp.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\bin\x64\Debug\TaglibSharp.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\obj\x64\Debug\Common.Business.csprojResolveAssemblyReference.cache

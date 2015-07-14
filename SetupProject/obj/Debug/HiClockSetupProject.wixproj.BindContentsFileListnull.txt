@@ -1,0 +1,14 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\Common.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Common.Business\bin\x64\Debug\\Common.Business.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\Common.Foundation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\Common.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\Output\Debug\\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\HiClock.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\HiClock.Domain.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\HiClock.exe
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\HiClock.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\HiClock.WinFormHelper\bin\x86\Debug\\HiClock.WinForm.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\Main.Application.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Output\Debug\\Main.Presentation.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\Readme.txt
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\WpfApplicationFramework\WpfApplicationFramework\Output\Debug\\WpfApplicationFramework.dll

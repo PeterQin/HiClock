@@ -1,0 +1,15 @@
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Common.Presentation.XML
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Common.Presentation.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Output\Debug\Waf.InformationManager.Common.Presentation.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Resources\CommonResources.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Resources\ControlResources.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Resources\ImageResources.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Themes\Generic.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\GeneratedInternalTypeHelper.g.cs
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Waf.InformationManager.Common.Presentation_MarkupCompile.cache
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Waf.InformationManager.Common.Presentation_MarkupCompile.lref
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Themes\Generic\SearchBox.baml
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Waf.InformationManager.Common.Presentation.g.resources
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Waf.InformationManager.Common.Presentation.dll
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Waf.InformationManager.Common.Presentation.pdb
+W:\Common\Internal Doc\Dev Library\WPF and MVVM\WPF Sample\WpfApplicationFramework\Samples\InformationManager\Common.Presentation\obj\Debug\Common.Presentation.csprojResolveAssemblyReference.cache

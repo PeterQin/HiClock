@@ -1,0 +1,2 @@
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.msi
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.wixpdb

@@ -1,0 +1,8 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.wixpdb
+obj\Release\Product.wixobj
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.msi
+obj\Release\SetupProject.wixproj.BindContentsFileListnull.txt
+obj\Release\SetupProject.wixproj.BindOutputsFileListnull.txt
+obj\Release\SetupProject.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.msi
+C:\Users\pqin\Documents\Visual Studio 2012\Projects\HiClock_Solution\SetupProject\bin\Release\HiClockSetup.wixpdb

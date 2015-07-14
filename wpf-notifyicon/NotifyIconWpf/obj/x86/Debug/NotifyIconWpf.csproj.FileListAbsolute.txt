@@ -1,0 +1,8 @@
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\Output\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\Output\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\Hardcodet.Wpf.TaskbarNotification.g.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\Hardcodet.Wpf.TaskbarNotification.Properties.Resources.resources
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\NotifyIconWpf.csproj.GenerateResource.Cache
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\Hardcodet.Wpf.TaskbarNotification.dll
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\Hardcodet.Wpf.TaskbarNotification.pdb
+C:\Users\pqin.PROD\Documents\Visual Studio 2012\Projects\HiClock_Solution\wpf-notifyicon\NotifyIconWpf\obj\x86\Debug\NotifyIconWpf.csprojResolveAssemblyReference.cache
